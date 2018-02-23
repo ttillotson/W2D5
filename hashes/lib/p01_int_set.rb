@@ -109,7 +109,7 @@ class ResizingIntSet
   end
 
   def resize!
-    arr2 = Array.new(num_buckets * 2) {[]}
+    arr2 = Array.new(num_buckets * 2) { [] }
     @store.each do |bucket|
       bucket.each do |el|
         arr2[el % arr2.length] << el
