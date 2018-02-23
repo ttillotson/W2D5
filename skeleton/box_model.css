@@ -1,0 +1,21 @@
+div {
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  min-height: 400px;
+  min-width: 400px;
+  padding: 50px;
+  border: 5px solid black
+}
+
+#first-div {
+  background-color: #39cccc;
+}
+
+#second-div {
+  background-color: #ff4136;
+}
+
+p {
+  background-color: #7fdbff;
+}
