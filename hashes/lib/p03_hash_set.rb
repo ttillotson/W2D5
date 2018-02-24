@@ -16,6 +16,7 @@ class HashSet
     end
   end
 
+
   def include?(key)
     self[key].include?(key)
   end
